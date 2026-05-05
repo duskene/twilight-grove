@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bastet Shrine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bastet-page">
+
+<div class="temple">
+
+  <h1>𓃠 Bastet</h1>
+  <p>Lady of Cats • Protector • Sacred Joy</p>
+
+  <img src="YOUR_IMAGE_URL_HERE">
+
+  <p>
+    Bastet watches from the shadows of warmth.
+  </p>
+
+  <a href="index.html">← Return to Grove</a>
+
+</div>
+
+</body>
+</html>
