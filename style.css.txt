@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: radial-gradient(circle at top, #0d0d1a, #000);
+  color: #e6e6f0;
+}
+
+/* MAP */
+.header {
+  text-align: center;
+  padding: 60px 20px 20px;
+}
+
+.map {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* CARDS */
+.card {
+  background: rgba(30,30,60,0.5);
+  border: 1px solid rgba(200,162,255,0.2);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(200,162,255,0.4);
+}
+
+.symbol {
+  font-size: 2em;
+}
+
+/* TEMPLE */
+.temple {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(10,10,20,0.7);
+  border-radius: 10px;
+  border: 1px solid rgba(200,162,255,0.2);
+}
+
+.temple img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+/* LINKS */
+a {
+  color: #c8a2ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 0 0 10px #c8a2ff;
+}
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  color: #e6e6f0;
+
+  background:
+    radial-gradient(circle at top, #0d0d1a 0%, #000 70%),
+    radial-gradient(circle at 20% 30%, rgba(200,162,255,0.08), transparent 60%),
+    radial-gradient(circle at 80% 70%, rgba(120,255,180,0.05), transparent 60%);
+
+  background-attachment: fixed;
+}
+.temple, .card {
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 25px rgba(0,0,0,0.6);
+  border-radius: 12px;
+}
+.temple {
+  max-width: 750px;
+  margin: 60px auto;
+  padding: 40px;
+
+  background: rgba(10,10,20,0.6);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.bastet-page .temple {
+  background: radial-gradient(circle at top, #1a0f10, #000);
+  border: 1px solid rgba(212,175,55,0.2);
+}
+.trees-page .temple {
+  background: radial-gradient(circle at top, #06140d, #000);
+  border: 1px solid rgba(120,255,180,0.2);
+}
+a {
+  color: #c8a2ff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-shadow: 0 0 10px currentColor;
+  transform: scale(1.05);
+}
+@keyframes breathe {
+  0% { opacity: 0.7; }
+  100% { opacity: 1; }
+}
+
+.temple {
+  animation: breathe 6s ease-in-out infinite alternate;
+}
